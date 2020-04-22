@@ -1,0 +1,72 @@
+.ModalInnerContainer{
+    background-color:  #f3e0aa ;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: 'Lobster', cursive !important;
+  
+  
+  }
+  .ModalHead{
+      color: #000;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      border-bottom: 1px solid rgb(199, 27, 27);
+      padding-bottom: 4%;
+      text-align: center;
+  
+  }
+  .ModalTitle{
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 5%;
+      color: #723737;
+  }
+  .ModalImage{
+      text-align: center;
+  }
+  .ModalImage img{
+      position: relative;
+      border-radius: 5px;
+     width: 80% !important;
+  }
+  
+  .ModalIngredients{
+      margin: 3%;
+      color: rgb(94, 90, 102) !important;
+      font-weight: 400;
+      font-size: 1rem;
+  }
+  .ModalApport{
+      margin: 3%;
+      color: rgb(59, 128, 62) !important;
+      font-weight: 700;
+      font-size: 1rem;
+  }
+  .ModalPrice{
+      margin: 3%;
+      color: #C3541C !important;
+      font-weight: 700;
+      font-size: 1.2rem;
+  }
+  
+  .ModalCheckout{
+     
+      border-top: 1px solid rgb(189, 30, 30);
+      text-align: center;
+  }
+  .ModalCheckout button{
+      text-align: center;
+      margin: 20px;
+      color: rgb(109, 86, 86);
+      border-radius: 5px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif !important;
+
+  }
+  
+  .ModalCheckout button:hover{
+      color: rgb(0, 0, 0);
+  }

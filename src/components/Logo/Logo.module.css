@@ -1,0 +1,13 @@
+.Logo {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    text-indent: -9999px;
+}
+
+.Logo img {
+    width: 100px; 
+    height: 50px; 
+    display: block; 
+    text-indent: -9999px;
+}

@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import {Route, Switch} from 'react-router-dom';
+import Layout from './hoc/Layout/Layout'
+import Landing from './containers/Landing/Landing'
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
+import Checkout from './containers/Checkout/Checkout';
+import Orders from './containers/Orders/Orders'
+import Burgers from './containers/Menus/Burgers/Burgers';
+import Pizzas from './containers/Menus/Pizzas/Pizzas'
+import Salads from './containers/Menus/Salads/Salads'
+import Drinks from './containers/Menus/Drinks/Drinks'
+import BreakFast from './containers/Menus/BreakFast/BreakFast'
+import Sandwiches from './containers/Menus/Sandwiches/Sandwiches'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Chicken from './containers/Menus/Chicken/Chicken'
+import ContactData from './containers/Checkout/ContactData/ContactData'
+import BurgerItems from './components/MenuItems/BurgersItems/BurgerItems'
+
+class App extends Component {
+ 
+  render() {
+    return (
+      <div>
+        <Layout>
+          <Switch>
+          <Route path="/ContactData" component={ContactData}/>
+          <Route path="/checkout" component={Checkout}/>
+          <Route path="/orders" component={Orders}/>
+          <Route path="/" exact component={Landing}/>
+          <Route path='/BurgerBuilder'  component={BurgerBuilder}/>
+          <Route path="/Burgers" component={Burgers}/>
+          <Route path="/Pizzas" component={Pizzas}/>
+          <Route path="/Salads" component={Salads}/>
+          <Route path="/Sandwiches" component={Sandwiches}/>
+          <Route path="/Chicken" component={Chicken}/>
+          <Route path="/BreakFast" component={BreakFast}/>
+          <Route path="/Drinks" component={Drinks}/>
+          <Route path="/BurgerItems" component={BurgerItems}/>
+          </Switch>
+        </Layout>
+      </div>
+    );
+  }
 }
 
 export default App;

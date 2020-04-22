@@ -1,0 +1,105 @@
+h2{
+    color: blue;
+    border: 1px solid #000;
+}
+.PostContainer{
+   
+    border-radius: 5px;
+}
+
+.LandingTitle{
+    margin: 5% 0;
+    font-weight: 700;
+    color:#63372C;
+    font-size: 2.2rem;
+    font-family: 'Lobster', cursive !important;
+
+}
+
+.LandingPost img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.LandingPost img:hover{
+   
+        
+        opacity: 0.8;
+        
+        opacity: 1;
+ 
+    
+
+}
+.LandingPost:hover .image {
+    opacity: 0.3;
+  }
+  
+  .LandingPost:hover .middle {
+    opacity: 0.8;
+  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text {
+     background-color: #000;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 16px 32px;
+  }  
+
+
+.BoxTitle{
+    color:#63372C;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Lobster', cursive !important;
+    text-decoration: none;
+
+}
+
+
+@media (min-width: 760px) and (max-width: 800px) {
+    .LandingPost{
+        margin: 10px;
+    }
+    .LandingPost img {
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .middle{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 750px){
+    .LandingPost img {
+        
+        border-radius: 5px;
+    }
+    .BoxTitle{
+        position: relative;
+        margin: 20px;
+    }
+    .middle{
+        display: none;
+    }
+}

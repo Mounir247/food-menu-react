@@ -1,0 +1,57 @@
+.BreadBottom img{
+  height: 13%;
+  width: 40%;
+  margin: 0px;
+}
+
+.BreadTop img{
+  height: 20%;
+  width: 40%;
+  
+  margin: 0px;
+  position: relative;
+}
+
+
+
+.Meat img{
+  width: 40%;
+  height: 8%;
+  margin: 0px;
+}
+
+.Cheese img {
+  width: 40%;
+  height: 4.5%;
+  margin: 0px;
+  
+}
+
+.Salad img{
+  width: 40%;
+  height: 7%;
+  margin: 0px;
+}
+
+.Bacon img{
+  width: 40%;
+  height: 3%;
+  margin: 0px;
+}
+.Tomato img{
+width: 40%;
+height: 3%;
+margin: 0px;
+}
+
+.Onion img{
+width: 40%;
+height: 3%;
+margin: 0px;
+}
+
+.Pickles img{
+width: 40%;
+height: 10%;
+margin: 0px;
+}
