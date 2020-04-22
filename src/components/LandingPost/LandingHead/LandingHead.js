@@ -22,7 +22,7 @@ class LandingHead extends Component{
                 <Grid item sx={12} >
                     <div className={styles.HeadLogo}>
                         <img src={FullLogoImg} alt={'DailyTasteFullLogo'}/>
-                        <p>Don't wanna choose a burger ...</p>
+                        <p>Don't wanna choose a burger ?</p>
                     </div>
           {headMedia.map(tile => (
               <div className={styles.BannerHead}>
