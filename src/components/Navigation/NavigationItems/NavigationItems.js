@@ -17,7 +17,7 @@ const navigationItems = () => (
         <NavigationItem link="/Salads">Salads</NavigationItem>
         <NavigationItem link="/BreakFast">BreakFast</NavigationItem>
         <NavigationItem link="/Drinks">Drinks</NavigationItem>
-        <NavigationItem link="/Pizzas">Pizzas</NavigationItem>
+      
     </ul>
 );
 

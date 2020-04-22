@@ -11,11 +11,11 @@
 }
 .NavigationItems a{
     color: #f3e0aa !important;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 .TitleMenu{
     color: #f3e0aa;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 @media (min-width: 500px) {
