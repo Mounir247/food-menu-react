@@ -76,9 +76,7 @@ class LandingPost extends Component{
                     
                     </Link>
                     <Link to={tile.direct}>
-                    <div className={styles.middle}>
-              <div className={styles.text}>{tile.title}</div>
-                    </div>
+                    
                     </Link>
                  <Link to={tile.direct} className={styles.BoxTitle}>
                  {tile.title}
