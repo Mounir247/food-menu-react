@@ -2,8 +2,12 @@
     text-align: center;
     width: 80%;
     margin: auto;
-}
+    font-family: 'Lobster', cursive !important;
 
+}
+.CheckoutButton{
+    font-family: 'Lato', sans-serif !important;
+}
 @media (min-width: 600px) {
     .CheckoutSummary {
         width: 500px;

@@ -3,3 +3,12 @@
     background-color: #f3e0aa !important;
 
 }
+
+
+@media(min-width:800px){
+    .Content{
+        margin-left: 30%;
+        text-align: center;
+        max-width: 600px;
+    }
+}
