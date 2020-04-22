@@ -38,7 +38,7 @@ const burgersMedia = [
     apport:'1046',
     price: "10.90 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const burgersMedia = [
       apport:'974',
     price: "9.40 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ const burgersMedia = [
     apport:'695',
     price: "7.60 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const burgersMedia = [
     apport:'734',
     price: "8.20 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 7,
@@ -99,7 +99,7 @@ const burgersMedia = [
     apport:'838',
     price: "7.20 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 8,
@@ -109,7 +109,7 @@ const burgersMedia = [
     apport:'768',
     price: "6.90 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
   {
     id: 9,
@@ -119,7 +119,7 @@ const burgersMedia = [
     apport:'578',
     price: "5.50 €",
     direct: "/ContactData",
-    back: "/BurgerItems"
+    back: "/Burgers"
   },
 ];
 export { burgersMedia };

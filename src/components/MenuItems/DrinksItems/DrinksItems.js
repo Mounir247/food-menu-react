@@ -31,7 +31,7 @@ const DrinksMedia = [
    title: 'Cocktails',
    ingredients: "x 1 Cocktail 35cl",
    apport:'170',
-    back: "/DrinksItems",
+    back: "/Drinks",
    price: '6.00 €',
    direct: '/ContactData'
   },
@@ -51,7 +51,7 @@ const DrinksMedia = [
    title: 'Coffe',
    ingredients: "x 1 Coffee",
    apport:'30',
-    back: "/DrinksItems",
+    back: "/Drinks",
    price: '1.50 €',
    direct: '/ContactData'
   },

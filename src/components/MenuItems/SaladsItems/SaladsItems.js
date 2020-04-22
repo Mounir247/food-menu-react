@@ -35,7 +35,7 @@ const saladsMedia = [
    title: 'Potatoes',
    ingredients: "Potatoes Plate.",
   apport:'249',
-    back: "/SaladsItems",
+    back: "/Salads",
    price: '3.50 €',
    direct: '/ContactData'
   },
@@ -55,7 +55,7 @@ const saladsMedia = [
      title: 'Salad Sea Food',
      ingredients: "Cheese, Meat, Bacon, Salad, Tomato, Onions.",
     apport:'838',
-    back: "/SaladsItems",
+    back: "/Salads",
      price: '7.20 €',
      direct: '/ContactData'
     },
@@ -76,7 +76,7 @@ const saladsMedia = [
      title: 'Cheese Naans',
      ingredients: "x3 Cheese Naans",
     apport:'350',
-     back: "/SaladsItems",
+     back: "/Salads",
      price: '3.90 €',
      direct: '/ContactData'
     },

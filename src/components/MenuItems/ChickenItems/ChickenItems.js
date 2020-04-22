@@ -24,7 +24,7 @@ const chickenMedia = [
    title: 'Chichen Full Treat',
    ingredients: "x6 Onion Rings, x6 Cheese Sticks, x6 Wings, x6Tenders, x6 Drumsticks.",
 apport:'1578',
- back: "/Chicken",
+ back: "/ChickenItems",
    price: '21.50 €',
    direct: '/ContactData'
   },
@@ -44,7 +44,7 @@ back: "/Chicken",
        title: 'Chicken Tenders',
        ingredients: "x6 Crispy Fried Chicken Tenders.",
        apport:'358',
-       back: "/Chicken",
+       back: "/ChickenItems",
        price: '5.50 €',
        direct: '/ContactData'
       },
@@ -65,7 +65,7 @@ back: "/Chicken",
        title: 'Indian Roasted Chicken',
        ingredients: "x1 Roasted Indian Chicken Stick",
        apport:'678',
-       back: "/Chicken",
+       back: "/ChickenItems",
        price: '7.60 €',
        direct: '/ContactData'
       },
@@ -80,7 +80,7 @@ back: "/Chicken",
         apport:'734',
         price: "8.20 €",
         direct: "/ContactData",
-        back: "/BurgerItems"
+        back: "/Chicken"
       },
    
    
